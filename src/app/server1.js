@@ -1,6 +1,6 @@
 import Client1 from "./client1";
 
-const waitMs = 2000;
+const waitMs = 0;
 
 const getData = () =>
   new Promise((resolve, reject) => setTimeout(() => resolve("DATA"), waitMs));
